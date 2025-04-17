@@ -21,6 +21,7 @@ body{
 h1,h2,h3{
     color:hsl(210, 10%, 33%) ;
     font-weight: 600;
+    font-size: 40px;
 }
 .buttons{
     display: flex;
@@ -55,10 +56,11 @@ header {
     height: auto;
 }
 header img{
-    margin-top: 140px ;
+    margin-top: 230px ;
     margin-bottom: 60px;
+ 
 }
-header h1{
+header h2{
     font-size: 45px;
     margin-bottom: 20px;
     width: 60%;
@@ -111,7 +113,7 @@ header p{
 .Quick,.iCloud,.Complete{
     width: 60%;
 }
-.s2-2 h1{
+.s2-2 h2{
     margin-bottom: 10px;
 }
 .s3{
@@ -120,7 +122,7 @@ header p{
     justify-content: center;
     flex-direction: column;
 }
-.s3 h1{
+.s3 h2{
     margin-bottom: 20px;
 }
 .s3 p{
@@ -133,7 +135,7 @@ header p{
     align-items: center;
     flex-direction: column;
 }
-.s4-4 h1{
+.s4-4 h2{
     margin-bottom: 25px;
 }
 .group1{
@@ -153,7 +155,7 @@ header p{
     margin-bottom: 35px;
    
 }
-.a h1,.b h1,.c h1{
+.a h2,.b h2,.c h2{
     margin-bottom: 10px;
   
 }
@@ -183,7 +185,7 @@ header p{
        flex-direction: row;
        margin-top: 60px;
    }
-   .s5 h1{
+   .s5 h2{
     margin-bottom: 15px;
    }
    .s5 p{
@@ -197,27 +199,23 @@ header p{
        background: #e6ebeb8d ;
        padding: 20px;
        width: 100%;
-       padding: 20px 30px;
+       padding: 40px 30px 60px 30px;
    }
    .social-icons{
     margin-right: 80px;
    }
    .social-icons img{
     padding: 0 10px;
-    height: 15px;
+    height: 25px;
    }
    .s6-img img{
     margin-left: 20px;
-    height: 40px;
+    height: 60px;
    }
   .f{
     margin-right: 20px;
   }
- 
-
 /* media queries */
-
-
 /* media for mobile */
 
   @media  (max-width: 375px){
@@ -282,7 +280,7 @@ header p{
     .s3 img{
         height: 220px;
     }
-    .s3 h1{
+    .s3 h2{
         margin-left: 40px;
     }
     .s3 p{
@@ -291,7 +289,7 @@ header p{
     .s4-4{
         padding: 0 0px 0 30px;
     }
-    .s4-4 h1{
+    .s4-4 h2{
         margin-top: 60px;
     }
     .group1{
@@ -404,7 +402,7 @@ margin-bottom: 20px;
     .s3 img{
         height: 220px;
     }
-    .s3 h1{
+    .s3 h2{
         margin-left: 40px;
     }
     .s3 p{
@@ -413,7 +411,7 @@ margin-bottom: 20px;
     .s4-4{
         padding: 0 0px 0 30px;
     }
-    .s4-4 h1{
+    .s4-4 h2{
         margin-top: 60px;
     }
     .group1{
