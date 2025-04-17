@@ -10,7 +10,6 @@ body{
 .container{
     background: url(images/bg-header-desktop.png) no-repeat;
     height: auto;
-    
 }
  .container p{
     font-size: 18px;
@@ -56,7 +55,7 @@ header {
     height: auto;
 }
 header img{
-    margin-top: 230px ;
+    margin-top: 140px ;
     margin-bottom: 60px;
  
 }
@@ -134,6 +133,7 @@ header p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 50px;
 }
 .s4-4 h2{
     margin-bottom: 25px;
@@ -176,7 +176,7 @@ header p{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 140px;
+    margin-top: 170px;
    }
   .buttons2{
        display: flex;
@@ -286,6 +286,7 @@ header p{
     .s3 p{
         width: 75%;
     }
+    
     .s4-4{
         padding: 0 0px 0 30px;
     }
@@ -313,6 +314,7 @@ margin-bottom: 20px;
        .s5 p{
         width: 80%;
        }
+      
        .s6{
         flex-direction: column;
            line-height: 3;
@@ -330,6 +332,7 @@ margin-bottom: 20px;
         margin-bottom: 30px;
         margin-right: 30px;
        }
+       
       .f{
         margin-right: 0px;
         
@@ -337,6 +340,7 @@ margin-bottom: 20px;
       .e{
         margin-left: 20px;
       }
+
 }
 /*media queries for tablet */
 
